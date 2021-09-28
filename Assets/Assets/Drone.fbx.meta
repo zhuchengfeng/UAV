@@ -1,0 +1,137 @@
+fileFormatVersion: 2
+guid: e70bf5499a161d24da96d2607703bf11
+timeCreated: 1630294940
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: base_2
+    100002: base_2_2
+    100004: "Cinema_4D_\u7F16\u8F91\u5668"
+    100006: Cloner
+    100008: Drone
+    100010: //RootNode
+    100012: myOctaneSettings
+    100014: Sphere
+    100016: Subdivision_Surface
+    100018: Symmetry
+    100020: Symmetry_2
+    100022: Tube_2
+    100024: Tube_2_2
+    100026: Tube_2_3
+    100028: Tube_2_4
+    100030: wing_0
+    100032: wing_1
+    100034: wing_2
+    100036: wing_3
+    400000: base_2
+    400002: base_2_2
+    400004: "Cinema_4D_\u7F16\u8F91\u5668"
+    400006: Cloner
+    400008: //RootNode
+    400010: Drone
+    400012: myOctaneSettings
+    400014: Sphere
+    400016: Subdivision_Surface
+    400018: Symmetry
+    400020: Symmetry_2
+    400022: Tube_2
+    400024: Tube_2_2
+    400026: Tube_2_3
+    400028: Tube_2_4
+    400030: wing_0
+    400032: wing_1
+    400034: wing_2
+    400036: wing_3
+    2300000: base_2
+    2300002: base_2_2
+    2300004: Sphere
+    2300006: Tube_2
+    2300008: Tube_2_2
+    2300010: Tube_2_3
+    2300012: Tube_2_4
+    3300000: base_2
+    3300002: base_2_2
+    3300004: Sphere
+    3300006: Tube_2
+    3300008: Tube_2_2
+    3300010: Tube_2_3
+    3300012: Tube_2_4
+    4300000: Sphere
+    4300002: Tube_2
+    4300004: Tube_2_2
+    4300006: Tube_2_3
+    4300008: Tube_2_4
+    4300010: base_2
+    4300012: base_2_2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
