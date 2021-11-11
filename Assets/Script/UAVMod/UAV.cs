@@ -57,8 +57,8 @@ namespace UAVMod
         public const double l = 0.17f;//旋翼到中心的距离 m
         public const double b = 0.042f;//旋翼升力系数
         public const double d = 1f;//旋翼阻力系数
-        public const double Ix = 2.35f;//转动惯量 kg*m^2 千克平方米
-        public const double Iy = 2.35f;
+        public const double Ix = 0.00235f;//转动惯量 kg*m^2 千克平方米
+        public const double Iy = 0.00235f;
         public const double Iz = 5.26f;
 
         //标志位
@@ -72,7 +72,7 @@ namespace UAVMod
         private const double Max_W = 15.0f;
 
         //最大水平飞行速度pid分离值
-        private const double Max_Speed = 0.09f;
+        private const double Max_Speed = 0.095f;
 
         private void Init()
         {
@@ -83,12 +83,12 @@ namespace UAVMod
             U = new double[4];
             pid = new PID[6];
             //初始化6个方向的pid
-            pid[0] = new PID(0.4f, 0f, 150f, 0f, 0f, 0.07f);
-            pid[1] = new PID(0.4f, 0f, 150f, 0f, 0f, 0.07f);
-            pid[2] = new PID(1.00f, 0f, 90f, 0f, 0f, 2.0f);
-            pid[3] = new PID(0.35f, 0f, 60f, 0f, 0f, 0.4f);
-            pid[4] = new PID(0.35f, 0f, 60f, 0f, 0f, 0.4f);
-            pid[5] = new PID(0.35f, 0f, 60f, 0f, 0f, 0.4f);
+            pid[0] = new PID(0.45f, 0f, 155f, 0f, 0f, 0.075f);
+            pid[1] = new PID(0.45f, 0f, 155f, 0f, 0f, 0.075f);
+            pid[2] = new PID(0.50f, 0f, 90f, 0f, 0f, 1.5f);
+            pid[3] = new PID(0.42f, 0f, 75f, 0f, 0f, 0.6f);
+            pid[4] = new PID(0.42f, 0f, 75f, 0f, 0f, 0.6f);
+            pid[5] = new PID(0.42f, 0f, 75f, 0f, 0f, 0.6f);
         }
         //升力值
         private void Update_Force()

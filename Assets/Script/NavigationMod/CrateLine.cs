@@ -4,25 +4,24 @@ using UnityEngine;
 
 public class CrateLine : MonoBehaviour {
 
-	// Use this for initialization
+    private LineRenderer lineRenderer;//储存 gameobject 的 LineRenderer 组件
+    private Navigation nav;
+
 	void Start () {
-        //_lineRenderer = line.GetComponent<LineRenderer>();
+        lineRenderer = GetComponent<LineRenderer>();
+        nav = GetComponent<Navigation>();
     }
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
-    public Transform line;//就是我们刚才添加的 gameobject
-    private LineRenderer _lineRenderer;//储存 gameobject 的 LineRenderer 组件
+        Create();
+    }
 
     void Create()
     {
-        //Vector3[] _path = Nav.path.corners;//储存路径
-        //_lineRenderer.SetVertexCount(_path.Length);//设置线段数
-        //for (int i = 0; i < _path.Length; i++)
-        //{
-        //    _lineRenderer.SetPosition(i, _path[i]);//设置线段顶点坐标
-        //}
+        Vector3 path = nav.nextMovePos;//储存路径
+        lineRenderer.positionCount = 2;//设置线段数
+        lineRenderer.SetPosition(0, transform.position);//设置线段顶点坐标
+        lineRenderer.SetPosition(1, path);//设置线段顶点坐标
     }
 }

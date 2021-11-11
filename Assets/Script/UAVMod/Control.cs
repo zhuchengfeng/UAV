@@ -72,7 +72,7 @@ public class Control : MonoBehaviour {
         //是否到达，到达后复位
         if (uav.Is_Arrive_Point(nav.startPos.x, nav.startPos.z, 1.5f))
         {
-            uav.over_flag = true;
+            //uav.over_flag = true;
             uav.arrive_flag = true;
         } 
         else
